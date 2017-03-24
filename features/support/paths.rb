@@ -19,7 +19,7 @@ module NavigationHelpers
       '/admin/content/new'
       
     when /^the Categories page$/
-      categories_path
+      admin_categories_path
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
