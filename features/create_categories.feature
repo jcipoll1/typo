@@ -19,10 +19,11 @@ Feature: Create Categories
   Scenario: Create Category
     When I go to the Categories page
     And I fill in the following:
-        | category_name         | TestName         |
-        | category_keywords     | TestKeyword      |
-        | category_description  | TestDescription  |
-        | category_permalink    | TestPermalink    |
+        | category_name         | TestName          |
+        | category_keywords     | TestKeyword       |
+        | category_description  | TestDescription   |
+        | category_permalink    | TestPermalink     |
+    And I press "Save"
     Then I should see "TestName"
     And I should see "TestKeyword"
     And I should see "TestDescription"
